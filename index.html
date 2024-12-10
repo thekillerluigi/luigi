@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Killer: Luigi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #00FF00;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-x: hidden;
+            height: 100vh;
+        }
+        header {
+            background-color: #000;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+        header h1 {
+            font-size: 3.5em;
+            margin: 0;
+            color: #00FF00;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+        }
+        section.hero {
+            position: relative;
+            height: 60vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            z-index: 5;
+        }
+        section.hero iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            filter: brightness(50%);
+        }
+        section.hero h2 {
+            color: #FF007F;
+            font-size: 3em;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+            animation: blink 1s infinite step-end;
+        }
+        section.content {
+            max-width: 1200px;
+            width: 90%;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .card {
+            background: rgba(0, 0, 0, 0.9);
+            border-radius: 10px;
+            padding: 30px;
+            margin: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
+            border: 2px solid #00FF00;
+        }
+        .card h3 {
+            font-size: 2em;
+            color: #00FF00;
+        }
+        .card p {
+            font-size: 1.2em;
+            color: #ccc;
+        }
+        .button {
+            background-color: #00FF00;
+            color: black;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+            border: 2px solid #00FF00;
+        }
+        .button:hover {
+            background-color: #00B300;
+        }
+        footer {
+            background-color: #000;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            color: #777;
+            position: relative;
+            z-index: 10;
+        }
+        .neon-text {
+            font-size: 1.5em;
+            color: #33FF33;
+            text-shadow: 0 0 8px rgba(0, 255, 0, 0.8);
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Killer: Luigi</h1>
+    </header>
+    <section class="hero">
+        <!-- Embedding YouTube video as background -->
+        <iframe src="https://www.youtube.com/embed/wGJLmrh_-WA?autoplay=1&mute=1&loop=1&playlist=wGJLmrh_-WA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <h2>Join the Revolution. Embrace the Controversy.</h2>
+    </section>
+    <section class="content">
+        <div class="card">
+            <h3>What is The Killer: Luigi?</h3>
+            <p>The Killer: Luigi is a meme-based cryptocurrency that symbolizes the rebellion against corporate greed, inspired by the infamous events surrounding the murder of UnitedHealthcare CEO, Brian Thompson. Join the resistance against a flawed system!</p>
+        </div>
+        <div class="card">
+            <h3>Why Choose The Killer: Luigi?</h3>
+            <p>Be part of a revolutionary movement! The Killer: Luigi represents freedom, individuality, and opposition to the power of corporate monopolies. Fight the system and take control of your future.</p>
+        </div>
+        <div class="card">
+            <h3>Get Involved</h3>
+            <p>Ready to make a difference? Buy your Killer: Luigi today and join the revolution! It's time to take a stand and build a decentralized future.</p>
+            <!-- Updated Buy Now Link -->
+            <a href="https://raydium.io/swap/" class="button" target="_blank">Buy Now</a>
+        </div>
+    </section>
+    <footer>
+        <p class="neon-text">&copy; 2024 The Killer: Luigi | All rights reserved</p>
+        <p><a href="https://x.com/thekillerluigi" class="neon-text" target="_blank">Follow us on Twitter</a></p>
+    </footer>
+</body>
+</html>
